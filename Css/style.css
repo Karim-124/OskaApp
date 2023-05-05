@@ -1,0 +1,114 @@
+body{
+    font-family: 'segoe ui light';
+}
+
+.text-mine{
+    color: #f5ba4b;
+}
+
+
+/* header */
+
+header{
+    background-image: url(../Images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+    font-size: 0.9rem;
+    
+}
+.text-opacity{
+    color: rgba(255,255,255, 0.65);
+}
+.landDesc{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    
+}
+header   h3{
+    /* background-color: violet; */
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    top: 30%;
+}
+ header h3::after{
+    content: "";
+    background-color: #fff;
+    width: 2.5rem;
+    height: 0.3rem;
+    position: absolute;
+    top: 50%;
+    right: 104%;
+
+}
+
+@media (max-width: 720px) {
+    header h3::after{
+        display: none;
+    }
+    header   h3{
+        display: none;
+    }
+
+
+    /* … */
+  }
+.layer{
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0, 0.55);
+    height: 100%;
+}
+
+/* header */
+#services i{
+    color: #f5ba4b!important;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.heading{
+    /* position: relative; */
+    font-family: 'open-sans',sans-serif;
+}
+.headG{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+.headS{
+    /* position: absolute; */
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.textHeading{
+    font-weight: 900;
+}
+.textDesc{
+    font-weight: 900;
+}
+.textDesc2{
+    font-weight: 700;
+}
+
+
+
+/* start blog section */
+
+.card-info{
+    font-size: 0.8rem;
+}
+.cardIcon{
+    right: 7%;
+    top: 50%;
+    box-shadow:  0 3px 20px rgba(0, 0,0, 0.15)
+}
+/*   end blog section */
+
